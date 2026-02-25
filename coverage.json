@@ -1,0 +1,59 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-25T14:37:40.096Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 3,
+    "implemented": 3,
+    "items": [
+      {
+        "id": "REQ-4",
+        "summary": "Revert the 'Phasma' label back to 'PHASMA Robotics' everywhere it was previously renamed — including navigation labels, page headings, card titles, and any other visible text on the landing page.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/PhasmaLanding.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/PhasmaLanding.tsx"
+        ]
+      },
+      {
+        "id": "REQ-5",
+        "summary": "Add the description text 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' beneath the 'PHASMA Robotics' label/card on the landing page.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/PhasmaLanding.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/PhasmaLanding.tsx"
+        ]
+      },
+      {
+        "id": "REQ-6",
+        "summary": "Ensure the 'PHASMA Robotics' card/label links to https://phasma-cek.caffeine.xyz/.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/pages/PhasmaLanding.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/pages/PhasmaLanding.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/pages/PhasmaLanding.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

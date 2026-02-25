@@ -1,0 +1,52 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Revert label to 'PHASMA Robotics', add description, and link to https://phasma-cek.caffeine.xyz/",
+  "requirements": [
+    {
+      "id": "REQ-4",
+      "summary": "Revert all occurrences of 'Phasma' label back to 'PHASMA Robotics' throughout the landing page",
+      "acceptanceCriteria": [
+        "All visible occurrences of the shortened label 'Phasma' (where it previously read 'PHASMA Robotics') are restored to 'PHASMA Robotics'.",
+        "No instance of the standalone 'Phasma' label (replacing the full name) remains on the page."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/PhasmaLanding.tsx",
+          "operation": "modify",
+          "description": "Update all visible text instances of 'Phasma' to 'PHASMA Robotics' in the landing page component, including any navigation labels, page headings, card titles, and other text elements that previously displayed the full name."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Add description text beneath the 'PHASMA Robotics' label on the landing page",
+      "acceptanceCriteria": [
+        "The description 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' is visible directly beneath the 'PHASMA Robotics' heading or card.",
+        "The description text is styled consistently with the rest of the landing page."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/PhasmaLanding.tsx",
+          "operation": "modify",
+          "description": "Add the description text 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' directly beneath the 'PHASMA Robotics' label/heading in the landing page layout. Style the description text consistently with existing typography using appropriate text size and opacity classes."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Make the 'PHASMA Robotics' card/label clickable and link to external URL",
+      "acceptanceCriteria": [
+        "Clicking the 'PHASMA Robotics' card or label navigates to https://phasma-cek.caffeine.xyz/.",
+        "The link opens correctly (preferably in a new tab)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/PhasmaLanding.tsx",
+          "operation": "modify",
+          "description": "Wrap the 'PHASMA Robotics' card or label element in an anchor tag or clickable component that links to https://phasma-cek.caffeine.xyz/. Configure the link to open in a new tab using target='_blank' and rel='noopener noreferrer' for security."
+        }
+      ]
+    }
+  ]
+}

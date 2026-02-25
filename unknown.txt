@@ -1,0 +1,5 @@
+
+If new images are needed, also include this section outside the spec:
+## Required Images
+- [Detailed, specific description with style, quality, background] ([unique-filename])
+</output>

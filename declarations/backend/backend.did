@@ -1,0 +1,10 @@
+service : {
+  getProjects: () -> (vec record {
+                            text;
+                            text;
+                          }) query;
+  getSocialLinks: () -> (vec record {
+                               text;
+                               text;
+                             }) query;
+}

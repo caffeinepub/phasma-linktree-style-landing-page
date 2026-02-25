@@ -1,0 +1,62 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-revert-the-phasma-label-back-to-phasma-robotics-everywhere-it-was-previously-renamed-including-navigation-labels-page-headings-card-titles-and-any-other-visible-text-on-the-landing-page",
+      "featureTitle": "Revert the 'Phasma' label back to 'PHASMA Robotics' everywhere it was previously renamed — including navigation labels, page headings, card titles, and any other visible text on the landing page.",
+      "files": [
+        "frontend/src/pages/PhasmaLanding.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-the-description-text-a-decentralized-saas-platform-for-training-surgical-robotics-reinforcement-learning-models-beneath-the-phasma-robotics-label-card-on-the-landing-page",
+      "featureTitle": "Add the description text 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' beneath the 'PHASMA Robotics' label/card on the landing page.",
+      "files": [
+        "frontend/src/pages/PhasmaLanding.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-ensure-the-phasma-robotics-card-label-links-to-https-phasma-cek-caffeine-xyz",
+      "featureTitle": "Ensure the 'PHASMA Robotics' card/label links to https://phasma-cek.caffeine.xyz/.",
+      "files": [
+        "frontend/src/pages/PhasmaLanding.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

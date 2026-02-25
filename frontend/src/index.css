@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.75rem;
+        /* Dark mode colors only - optimized for permanent dark theme */
+        --background: 0.12 0.05 280;
+        --foreground: 0.95 0.02 280;
+        --card: 0.18 0.06 280;
+        --card-foreground: 0.95 0.02 280;
+        --popover: 0.22 0.07 280;
+        --popover-foreground: 0.95 0.02 280;
+        --primary: 0.75 0.18 280;
+        --primary-foreground: 0.12 0.05 280;
+        --secondary: 0.25 0.08 280;
+        --secondary-foreground: 0.95 0.02 280;
+        --muted: 0.22 0.07 280;
+        --muted-foreground: 0.65 0.08 280;
+        --accent: 0.35 0.12 280;
+        --accent-foreground: 0.95 0.02 280;
+        --destructive: 0.75 0.22 15;
+        --destructive-foreground: 0.12 0.05 280;
+        --border: 0.25 0.08 280;
+        --input: 0.25 0.08 280;
+        --ring: 0.65 0.15 280;
+        --chart-1: 0.55 0.25 280;
+        --chart-2: 0.65 0.20 320;
+        --chart-3: 0.75 0.18 200;
+        --chart-4: 0.45 0.22 160;
+        --chart-5: 0.35 0.25 120;
+        --sidebar: 0.18 0.06 280;
+        --sidebar-foreground: 0.95 0.02 280;
+        --sidebar-primary: 0.75 0.18 280;
+        --sidebar-primary-foreground: 0.12 0.05 280;
+        --sidebar-accent: 0.25 0.08 280;
+        --sidebar-accent-foreground: 0.95 0.02 280;
+        --sidebar-border: 0.25 0.08 280;
+        --sidebar-ring: 0.65 0.15 280;
+    }
+
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+}
+
+@layer components {
+    .ghost-glow {
+        box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up query client and renders the Phasma landing page with toast notifications in permanent dark mode without theme provider.",
+  "frontend/src/pages/PhasmaLanding.tsx": "Complete Linktree-style landing page with PHASMA Logo1.png in the header, heading \"PHASMA Robotics\" with tagline \"A decentralized SaaS platform for training surgical robotics reinforcement learning models.\", featuring 2 project cards (PHASMA Robotics linking to https://phasma-cek.caffeine.xyz/ and PHASMA) with responsive grid layout, social links with brand icons, dynamic year in footer, and proper UTM-tracked caffeine.ai attribution link.",
+  "frontend/src/hooks/useQueries.ts": "Simplified React Query hooks that only provide basic data fetching for projects and social links from the backend, with all analytics-related functionality removed.",
+  "frontend/src/index.css": "Enhanced CSS with purple-themed OKLCH color system optimized exclusively for dark mode, plus custom ghost-glow utility class.",
+  "frontend/src/components/ThemeToggle.tsx": "Theme toggle component that switches between light and dark modes using next-themes, with proper mounting state handling and accessible button design.",
+  "frontend/src/hooks/useActor.ts": "Simplified hook that initializes the backend actor for anonymous users without any authentication requirements."
+}

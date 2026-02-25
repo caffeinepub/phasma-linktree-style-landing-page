@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Website project with a 'PHASMA Robotics' navigation link/section. The label should remain 'PHASMA Robotics' (not shortened to 'Phasma'), include the description 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.', and link to https://phasma-cek.caffeine.xyz/.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-update-the-navigation-link-that-currently-references-phasma-robotics-so-that-it-points-to-https-phasma-cek-caffeine-xyz",
+      "title": "Update the navigation link that currently references 'Phasma Robotics' so that it points to https://phasma-cek.caffeine.xyz/",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-change-every-occurrence-of-the-text-phasma-robotics-on-the-website-including-navigation-labels-page-headings-card-titles-and-any-other-visible-text-to-just-phasma",
+      "title": "Change every occurrence of the text 'Phasma Robotics' on the website (including navigation labels, page headings, card titles, and any other visible text) to just 'Phasma'",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-redeploy-the-application-to-the-network-without-any-code-changes-retrying-the-previously-failed-deployment",
+      "title": "Redeploy the application to the network without any code changes, retrying the previously failed deployment.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-revert-the-phasma-label-back-to-phasma-robotics-everywhere-it-was-previously-renamed-including-navigation-labels-page-headings-card-titles-and-any-other-visible-text-on-the-landing-page",
+      "title": "Revert the 'Phasma' label back to 'PHASMA Robotics' everywhere it was previously renamed — including navigation labels, page headings, card titles, and any other visible text on the landing page.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-description-text-a-decentralized-saas-platform-for-training-surgical-robotics-reinforcement-learning-models-beneath-the-phasma-robotics-label-card-on-the-landing-page",
+      "title": "Add the description text 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' beneath the 'PHASMA Robotics' label/card on the landing page.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-phasma-robotics-card-label-links-to-https-phasma-cek-caffeine-xyz",
+      "title": "Ensure the 'PHASMA Robotics' card/label links to https://phasma-cek.caffeine.xyz/.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Keep label as 'PHASMA Robotics' (revert rename to just 'Phasma'), add description 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.', linking to https://phasma-cek.caffeine.xyz/",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Update navigation link URL and rename 'Phasma Robotics' to 'Phasma' site-wide",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

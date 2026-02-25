@@ -1,0 +1,17 @@
+{
+  "backend/main.mo": "Motoko actor that stores and exposes project and social link data via query functions, mixing in blob storage functionality.",
+  "feature_evidence.json": "Feature evidence report mapping three landing page requirements (reverting label to 'PHASMA Robotics', adding description text, and linking to phasma-cek.caffeine.xyz) to their implementing file.",
+  "frontend-file-summaries.txt": "JSON document summarizing the purpose and key details of each frontend source file for reference during build planning.",
+  "frontend/index.html": "Minimal HTML entry point that mounts the React app into a root div and loads the main TypeScript module.",
+  "frontend/src/App.tsx": "Root React component that wraps the app in a React Query provider and renders the PhasmaLanding page with toast notifications in permanent dark mode.",
+  "frontend/src/components/ThemeToggle.tsx": "Empty file with no content; the theme toggle component has no implementation.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and caches a backend actor for either anonymous or authenticated users, invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an Internet Identity authentication context and provider, managing AuthClient creation, login/logout flow, and identity persistence across page reloads.",
+  "frontend/src/hooks/useQueries.ts": "Defines two React Query hooks, useGetProjects and useGetSocialLinks, that fetch data from the backend actor.",
+  "frontend/src/index.css": "Global CSS defining a purple-themed OKLCH dark-mode color system via CSS variables and a custom ghost-glow utility class.",
+  "frontend/src/main.tsx": "Application entry point that renders the React tree with React Query and InternetIdentityProvider wrappers.",
+  "frontend/src/pages/PhasmaLanding.tsx": "Linktree-style landing page displaying the PHASMA logo, 'PHASMA Robotics' heading with tagline, two project cards, and social links with fallback static data.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with OKLCH-based color tokens, custom border radii, accordion animations, and typography/container-queries/animate plugins.",
+  "project_state.json": "Tracks the project state and feature history for a website with a 'PHASMA Robotics' navigation section, recording completed and pending features related to label naming, description text, and URL linking.",
+  "unknown.txt": "A partial template snippet describing the format for specifying required images in a project spec document."
+}

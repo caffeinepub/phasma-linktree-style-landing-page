@@ -1,0 +1,71 @@
+{
+  "kind": "build_request",
+  "title": "Revert label to 'PHASMA Robotics', add description, and link to https://phasma-cek.caffeine.xyz/",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-4",
+      "text": "Revert the 'Phasma' label back to 'PHASMA Robotics' everywhere it was previously renamed — including navigation labels, page headings, card titles, and any other visible text on the landing page.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "no chnage teh PHASMA Robotics"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All visible occurrences of the shortened label 'Phasma' (where it previously read 'PHASMA Robotics') are restored to 'PHASMA Robotics'.",
+        "No instance of the standalone 'Phasma' label (replacing the full name) remains on the page."
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Add the description text 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' beneath the 'PHASMA Robotics' label/card on the landing page.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "A decentralized SaaS platform for training surgical robotics reinforcement learning models."
+        ]
+      },
+      "acceptanceCriteria": [
+        "The description 'A decentralized SaaS platform for training surgical robotics reinforcement learning models.' is visible directly beneath the 'PHASMA Robotics' heading or card.",
+        "The description text is styled consistently with the rest of the landing page."
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Ensure the 'PHASMA Robotics' card/label links to https://phasma-cek.caffeine.xyz/.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "link to https://phasma-cek.caffeine.xyz/"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Clicking the 'PHASMA Robotics' card or label navigates to https://phasma-cek.caffeine.xyz/.",
+        "The link opens correctly (preferably in a new tab)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change any other text, branding, or layout elements beyond what is specified in these requirements.",
+    "Do not modify any immutable frontend paths (hooks, main.tsx, ui components)."
+  ],
+  "nonGoals": [
+    "Any backend data model or actor changes.",
+    "Changes to social links or other project cards on the landing page.",
+    "Any redesign of the overall page layout or color scheme."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
